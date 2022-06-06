@@ -17,9 +17,12 @@ const Navbar = () => {
           <Link href={"/stickers"}><a className="mr-5 hover:text-pink-600">Stickers</a></Link>
           <Link href={"/mugs"}><a className="mr-5 hover:text-pink-600">Mugs</a></Link>
         </nav>
-        <button className="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-pink-500 hover:text-white rounded text-base mt-4 md:mt-0">
+        <button className=" absolute top-0 right-0 md:static md:inline-flex md:items-end bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-pink-500 hover:text-white rounded text-base mt-5 mr-4 md:mt-0 md:mr-0">
           <FaOpencart className='text-xl md:text-3xl'/>
         </button>
+        {/* <button className="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-pink-500 hover:text-white rounded text-base mt-4 md:mt-0">
+          <FaOpencart className='text-xl md:text-3xl'/>
+        </button> */}
       </div>
     </header>
   )
