@@ -7,7 +7,7 @@ const mugs = () => {
       <div className="container px-5 py-24 ml-auto">
         <div className="flex flex-wrap -m-5">
           
-          <Link href={"/product/tshirts"}>
+          <Link href={"/product/mugs"}>
             <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" className="m-auto md:mx-0 md:h-[30vh] h-[36vh] block" src="https://m.media-amazon.com/images/I/61d9gtFUTQL._AC_UL320_.jpg" />
